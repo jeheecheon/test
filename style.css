@@ -6,19 +6,21 @@ body {
 
 #container {
   display: flex;
+  flex: 1 1 auto;
   width: 100%;
-  flex-direction: row;
   height: 100%;
 }
 
 #dvh, #lvh, #svh {
   height: 100%;
+  display: flex;
   flex: 1 1 auto;
+  align-items: center;
+  justify-content: center;
 }
 
 #dvh {
   background-color: red;
-  color: white;
 }
 
 #lvh {
