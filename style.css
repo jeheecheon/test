@@ -1,0 +1,30 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+#container {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  height: 100%;
+}
+
+#dvh, #lvh, #svh {
+  height: 100%;
+  flex: 1 1 auto;
+}
+
+#dvh {
+  background-color: red;
+  color: white;
+}
+
+#lvh {
+  background-color: green;
+}
+
+#svh {
+  background-color: blue;
+}
